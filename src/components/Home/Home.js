@@ -6,11 +6,7 @@ import Places from '../Places/Places';
 // import PlaceDetails from '../PlaceDetails/PlaceDetails';
 const Home = () => {
 
-    // const style = {
-    //     display: 'flex',
-    //     margin: '40px',
-    //     justifyContent: 'space-between'
-    // }
+    
     const places = [
         {
             title: `Cox's Bazar`,
