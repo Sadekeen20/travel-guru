@@ -46,9 +46,7 @@ export default function Place({place}){
   const history = useHistory();
   console.log(place);
 
-    // const handleBook = (placeName) => {
-    //     history.push(`/book/${placeName}`);
-    // }
+    
     const handlePlaceDetails= (placeName) => {
       history.push(`/place/${placeName}`);
   }
@@ -68,25 +66,9 @@ export default function Place({place}){
         image={place.imgUrl}
         title="Paella dish"
       />
-      {/* <img src={`/images/${place.placeName}.png`} alt=""/> */}
-      {/* <CardContent>
-        {/* <Typography variant="body2" color="textSecondary" component="p">
-          {place.description}
-        </Typography> */}
-      {/* </CardContent> */} 
+     
       <CardActions disableSpacing>
-        {/* <IconButton aria-label="add to favorites">
-          <LocalHotelIcon />: {place.bed} 
-        </IconButton>
-        <IconButton aria-label="share">
-          <WcIcon />: {place.capacity} 
-        </IconButton>
-        <IconButton aria-label="price">
-          <AttachMoneyIcon />: {place.price} 
-        </IconButton> */}
-        {/* <Button onClick={() => handleBook(place.placeName)} variant="contained" color="primary">
-            Book
-        </Button> */}
+        
         <Button onClick={() => handlePlaceDetails(place.placeName)} variant="contained" color="primary">
             Booking ->
         </Button>

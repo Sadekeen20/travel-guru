@@ -14,12 +14,6 @@ const PlaceDetails = () => {
     return (
         <div style={{ textAlign: 'center', backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${bgImg})`, height: '800px', backgroundSize: 'cover', color: 'white' }}>
 
-
-
-            {/* nextlevel   */}
-
-
-
             <Container fluid style={{ paddingTop: '180px' }}>
                 <Row style={{}}>
                     <Col>

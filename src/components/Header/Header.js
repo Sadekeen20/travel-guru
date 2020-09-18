@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <Container>
            <Navbar variant="light" style={{background: 'transparent', paddingLeft:'100px'}}>
-    <Navbar.Brand href="#home">
+    <Navbar.Brand href="#home" >
         {/* <img
             alt=""
             src="../../Icon/Logo.png"
@@ -14,7 +14,7 @@ const Header = () => {
             height="30px"
             className="d-inline-block align-top"
         />{'Travel Guru '} */}
-       <b>T r a v e l Guru</b>  
+       <Link to="/" style={{textDecoration: 'none' ,color: 'black'}}><b>T r a v e l Guru</b></Link>
     </Navbar.Brand>
     <Form inline>
       <FormControl type="text" placeholder="Search Your Destination" className="mr-sm-2" />
@@ -26,7 +26,9 @@ const Header = () => {
       <Nav.Link href="#features">Destination</Nav.Link>
       <Nav.Link href="#features">Blog</Nav.Link>
       <Nav.Link href="#pricing">Contact</Nav.Link>
-      <Link to="/login" style={{background:'#ffbf00', borderRadius:'5px',padding:'10px',color:'black',textDecoration: 'none'}}><b>Login</b></Link>
+      <Link to="/login" style={{background:'#ffbf00', borderRadius:'5px',padding:'10px',color:'black',textDecoration: 'none'}}><b>Login</b>
+      
+      </Link>
     </Nav>
     
   </Navbar> 
